@@ -27,7 +27,7 @@ void createUser() {
 	hm.put("id", "0");
 	hm.put("idBook","0");
 	hm.put("firstName", "thara");
-	hm.put("lastName", "rmswmy");
+	hm.put("lastName", "rmswhjjmy");
 	given()
 	.contentType("application/json")
 	.body(hm)
