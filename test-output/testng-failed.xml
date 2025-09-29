@@ -5,7 +5,7 @@
     <classes>
       <class name="Day1.HttpReq">
         <methods>
-          <include name="createUser"/>
+          <include name="getUsers"/>
         </methods>
       </class> <!-- Day1.HttpReq -->
     </classes>

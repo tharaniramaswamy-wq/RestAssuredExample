@@ -13,11 +13,10 @@ public class HttpReq {
 	void getUsers() {
 	given()
 	.when()
-	.get("https://reqres.in/api/users?page=2")
+	.get("https://fakerestapi.azurewebsites.net/api/v1/Activities/2")
 	.then()
 	.statusCode(200)
-	.body("page",equalTo(2))
-	.log().all();
+		.log().all();
 	
 }
 @Test
@@ -27,7 +26,7 @@ void createUser() {
 	hm.put("id", "0");
 	hm.put("idBook","0");
 	hm.put("firstName", "thara");
-	hm.put("lastName", "rmswhjjmy");
+	hm.put("lastName", "rmswmy");
 	given()
 	.contentType("application/json")
 	.body(hm)
